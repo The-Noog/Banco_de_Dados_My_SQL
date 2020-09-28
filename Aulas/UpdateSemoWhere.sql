@@ -1,6 +1,7 @@
-create table matriculados 
+use funcoes_novas;
+
 (
-        id_curso int ,
+        id_curso int,
 		nome varchar(30),
 		descricao varchar(30),
 		carga char(10),
